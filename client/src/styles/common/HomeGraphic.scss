@@ -1,0 +1,20 @@
+
+
+#container {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  background: #fff;
+  filter: contrast(50);
+  z-index: -1;
+}
+
+#container .box {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: rgb(255, 166, 0);
+  border-radius: 50%;
+  filter: blur(40px);
+  transition: 2s;
+}

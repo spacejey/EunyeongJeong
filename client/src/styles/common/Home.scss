@@ -1,0 +1,56 @@
+main {
+  position: absolute;
+  height: 100vh;
+}
+
+.home-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: end;
+  margin: 20px;
+  position: fixed;
+  bottom: 0;
+}
+
+.main-text {
+  font-size: 55px;
+}
+
+.sub-text {
+  font-size: medium;
+  position: fixed;
+  right: 50px;
+}
+
+.hight-light {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 890px) {
+  .home-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .main-text {
+    order: 1;
+    font-size: 35px;
+    margin: 10px;
+  }
+
+  .sub-text {
+    order: 2;
+    position: unset;
+    font-size: 10px;
+    margin: 10px;
+  }
+
+}

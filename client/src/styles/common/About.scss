@@ -1,0 +1,66 @@
+.profile-img {
+  width: 400px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+
+.about-header {
+  display: flex;
+  margin-top: 12%;
+  background-image: url('../../assets/Ellipse\ 1.png');
+  background-position: 900px;
+  background-repeat: no-repeat;
+}
+
+.about-sub {
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-style: italic;
+  .highlight {
+    font-weight: 700;
+  }
+}
+
+.highlight {
+  font-size: larger;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.about-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-main {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: end;
+}
+
+.about-text-long {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  cursor: pointer;
+  .mail {
+    margin-right: 10px;
+    width: 41px;
+  }
+  
+  .LinkedIn {
+    margin-right: 10px;
+    width: 39px;
+  }
+  
+  .Github {
+    width: 46px;
+    height: 45px;
+  }
+}

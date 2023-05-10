@@ -1,0 +1,24 @@
+.experience-container {
+  display: flex;
+  margin-top: 200px;
+}
+
+.experience-header{
+  display: flex;
+  margin: 30px 0 100px 0;
+}
+
+.experience-box {
+  margin-bottom: 80px;
+  .experience-title {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  .experience-skills {
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+}
