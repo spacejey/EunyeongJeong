@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
-import Badge from 'react-bootstrap/Badge'
+import Button from 'react-bootstrap/Button'
 
 // Components
 import Woozu from '../../assets/woozu.gif'
@@ -18,11 +18,14 @@ const ProjectsCard = () => {
 
   return (
     <>
-      <Container>
+      <Container className='card-index'>
         <Row style={{ marginTop: '100px' }}>
           {/* STAY COOL */}
           <Col className='card-indivisual'>
-            <Card.Text className='card-date'>APRIL 2023</Card.Text>
+            <div className='card-top'>
+              <Card.Text className='card-date'>APRIL 2023</Card.Text>
+              {/* <Button className='readme-btn'>ReadMe</Button> */}
+            </div>
             <Card style={{ width: '18rem' }}>
               <Link to={'https://staycool.herokuapp.com/'} target="_blank" rel="noopener noreferrer">
                 <Card.Img  className='card-img' variant="top" src={SnakeGame} />
@@ -38,11 +41,11 @@ const ProjectsCard = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <div>
+            <div className='stack-container'>
               {['Django', 'PostgeSQL', 'React', 'SASS'].map((tech, index) => (
-                <Badge key={index} pill bg='warning' text='dark' style={{ marginRight: '10px' }}>
+                <p key={index} className='stack-badge'>
                   {tech}
-                </Badge>
+                </p>
               ))}
             </div>
           </Col>
@@ -65,11 +68,11 @@ const ProjectsCard = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <div>
+            <div className='stack-container'>
               {['MERN framework', 'SASS'].map((tech, index) => (
-                <Badge key={index} pill bg='warning' text='dark' style={{ marginRight: '10px' }}>
+                <p key={index} className='stack-badge'>
                   {tech}
-                </Badge>
+                </p>
               ))}
             </div>
           </Col>
@@ -92,11 +95,11 @@ const ProjectsCard = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <div>
+            <div className='stack-container'>
               {['React', 'API', 'SCSS'].map((tech, index) => (
-                <Badge key={index} pill bg='warning' text='dark' style={{ marginRight: '10px' }}>
+                <p key={index} className='stack-badge'>
                   {tech}
-                </Badge>
+                </p>
               ))}
             </div>
           </Col>
@@ -119,11 +122,11 @@ const ProjectsCard = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <div>
+            <div className='stack-container'>
               {['JavaScript', 'CSS'].map((tech, index) => (
-                <Badge key={index} pill bg='warning' text='dark' style={{ marginRight: '10px' }}>
+                <p key={index} className='stack-badge'>
                   {tech}
-                </Badge>
+                </p>
               ))}
             </div>
           </Col>

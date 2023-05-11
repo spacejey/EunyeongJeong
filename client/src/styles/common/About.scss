@@ -6,26 +6,7 @@
 
 .about-header {
   display: flex;
-  margin-top: 12%;
-  background-image: url('../../assets/Ellipse\ 1.png');
-  background-position: 900px;
-  background-repeat: no-repeat;
-}
-
-.about-sub {
-  font-size: 15px;
-  margin-bottom: 20px;
-  font-style: italic;
-  .highlight {
-    font-weight: 700;
-  }
-}
-
-.highlight {
-  font-size: larger;
-  font-weight: 700;
-  font-style: italic;
-  text-decoration: underline;
+  margin-top: 100px;
 }
 
 .about-text-container {
@@ -38,13 +19,41 @@
   font-size: 20px;
   display: flex;
   flex-direction: column;
-  align-items: end;
-  text-align: end;
+}
+
+.first-title {
+  font-size: 30px;
+  font-weight: 700;
+  height: 30px;
+  color: orange;
+}
+.sec-title {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.about-sub {
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-style: italic;
+  .highlight {
+    font-weight: 700;
+  }
 }
 
 .about-text-long {
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(to right, #ffc96594, #7cffcd70);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.highlight {
+  font-size: larger;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 .buttons {

@@ -37,10 +37,9 @@ const About = () => {
         </Row>
         <div className='about-text-container'>
           <Row className='about-main'>
-            <Col >
-              <h1 style={{ fontWeight: '800', fontSize: '50px' }}> ABOUT 은영 </h1>
-            </Col>
-            <Col className='about-sub' style={{ fontSize: '20px' }}>
+            <Col>
+              <p className='first-title'> ABOUT </p>
+              <p className='sec-title'> EUNYEONG </p>
               <p>The name &apos;Eunyeong&apos; has the meaning of &apos;graceful and glorious&apos;.<br />
               I am a <span style={{ fontWeight: '700' }}>Junior Engineer </span> 
               dealing with <span style={{ fontWeight: '700' }}>Full stack</span></p>
