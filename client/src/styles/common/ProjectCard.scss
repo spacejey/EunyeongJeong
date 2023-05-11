@@ -26,7 +26,6 @@
   font-size: 13px;
 }
 
-
 .card-img {
   height: 160px;
   cursor: pointer;
@@ -35,13 +34,18 @@
 .card-text-box {
   width: 18rem;
   margin: 20px 0px 15px 0px;
+  padding: 10px;
+  .card-text-body {
+    height: 15rem;
+    .card-title {
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .card-text {
+      font-size: 15px;
+    }
+  }
 }
-
-.card-text-body {
-  height: 15rem;
-}
-
-
 
 .stack-container {
   display: flex;

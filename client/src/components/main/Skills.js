@@ -1,5 +1,5 @@
 // Components
-import Star from '../../assets/Star 1.png'
+import Star from '../../assets/Star 2.png'
 
 // Bootstrap
 import Row from 'react-bootstrap/Row'
@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col'
 const Skills = () => {
   return ( 
     <>
-      <Row style={{ marginTop: '200px', marginBottom: '200px' }} className='skills-container'>
+      <Row style={{ marginTop: '100px', marginBottom: '200px' }} className='skills-container'>
         <div className='skills'>
           <img style={{ width: 50, marginRight: 10 }} src={ Star } alt="" />
           <p style={{ fontSize: 35, fontWeight: 800 }}>My Skills...</p>
@@ -31,7 +31,7 @@ const Skills = () => {
               PostgreSQL<br />
               Table Plus</p></Col>
         <Col>
-          <h4 className='skills-title'>Storage/Version control</h4>
+          <h4 className='skills-title'>Storage/<br />Version control</h4>
           <p>Git<br />
               GitHub<br />
               Insomnia<br />  

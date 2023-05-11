@@ -17,7 +17,7 @@ const Experience = () => {
             <div className='experience-header' >
               <p className='first-title'> WORK </p>
               <p className='sec-title'> EXPERIENCE </p>
-              <p style={{ fontSize: '20px' }}>My career is started from Fashion
+              <p style={{ fontSize: '17px', fontStyle: 'italic' }}>My career is started from Fashion
                 Marketing to Software Engineering </p> 
             </div>
             <div className='experience-box'>
@@ -58,7 +58,7 @@ const Experience = () => {
               </p>
             </div>
           </Col>
-          <Col>
+          <Col >
             <AboutGraphic />
           </Col>
         </Row>

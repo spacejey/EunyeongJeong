@@ -1,5 +1,4 @@
 // Components
-import NavBar from './common/NavBar'
 import HomeGraphic from './common/HomeGraphic'
 
 // Bootstrap
@@ -9,9 +8,8 @@ import Col from 'react-bootstrap/Col'
 const Home = () => {
   return (
     <>
-      <NavBar />
       <main>
-        <Row>
+        <Row className='nav-transition'>
           <Col className='home-text'>
             <h1 className='main-text'>
               I&apos;VE BEEN LIVING <br />

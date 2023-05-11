@@ -1,9 +1,6 @@
 // Components
-import axios from 'axios'
 import ProjectCard from './ProjectCard'
-import NavBar from '../common/NavBar'
-import { useCallback, useEffect, useState } from 'react'
-
+import Footer from './Footer'
 
 // Bootstrap
 import Container from 'react-bootstrap/Container'
@@ -12,11 +9,9 @@ import Col from 'react-bootstrap/Col'
 
 const Projects = () => {
 
-
   return (
     <>
-      <NavBar />
-      <Container>
+      <Container className='nav-transition'>
         <Row>
           <Col style={{ display: 'flex', justifyContent: 'center' }}>
             <h1 className='project-title'> PROJECTS </h1>
@@ -26,6 +21,7 @@ const Projects = () => {
           <ProjectCard />
         </Col>
       </Container>
+      <Footer />
     </>
   )
 }

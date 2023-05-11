@@ -18,7 +18,7 @@ const AboutGraphic = () => {
 
         for (let i = 0; i < gooey.length; i++ ) {
           gooey[i].style.left = Math.floor(Math.random() * 20) + 'vw'
-          gooey[i].style.top = Math.floor(Math.random() * 80) + 'vh'
+          gooey[i].style.top = Math.floor(Math.random() * 100) + 'vh'
         }
       }, 4000)
 

@@ -11,6 +11,7 @@ import Button from 'react-bootstrap/Button'
 import Woozu from '../../assets/woozu.gif'
 import SnakeGame from '../../assets/snake-game.gif'
 import Harvard from '../../assets/harvard-gallery.gif'
+import RockGame from '../../assets/rock-game.gif'
 
 
 
@@ -20,6 +21,7 @@ const ProjectsCard = () => {
     <>
       <Container className='card-index'>
         <Row style={{ marginTop: '100px' }}>
+          
           {/* STAY COOL */}
           <Col className='card-indivisual'>
             <div className='card-top'>
@@ -33,8 +35,8 @@ const ProjectsCard = () => {
             </Card>
             <Card className='card-text-box'>
               <Card.Body className='card-text-body'>
-                <Card.Title>STAY COOL</Card.Title>
-                <Card.Text>
+                <Card.Title className='card-title'>STAY COOL</Card.Title>
+                <Card.Text className='card-text'>
                 Full-stack Ice cream truck tracking app by utilising the Django REST
                 Framework and PostgreSQL. The frontend is builded by React and SCSS,
                 and map was inserted using Google Cloud API.
@@ -79,7 +81,7 @@ const ProjectsCard = () => {
 
           {/* Harvard Gallery */}
           <Col>
-            <Card.Text className='card-date'>FEBRARY 2023</Card.Text>
+            <Card.Text className='card-date'>MARCH 2023</Card.Text>
             <Card style={{ width: '18rem' }}>
               <Link to={'https://spacejey-harvard-api.netlify.app/'} target="_blank" rel="noopener noreferrer">
                 <Card.Img  className='card-img'  variant="top" src={Harvard} />
@@ -97,6 +99,33 @@ const ProjectsCard = () => {
             </Card>
             <div className='stack-container'>
               {['React', 'API', 'SCSS'].map((tech, index) => (
+                <p key={index} className='stack-badge'>
+                  {tech}
+                </p>
+              ))}
+            </div>
+          </Col>
+
+          {/* Rock Paper Scissor */}
+          <Col>
+            <Card.Text className='card-date'>FEBRARY 2023</Card.Text>
+            <Card style={{ width: '18rem' }}>
+              <Link to={'https://battle-with-alien.netlify.app/'} target="_blank" rel="noopener noreferrer">
+                <Card.Img  className='card-img'  variant="top" src={RockGame} />
+              </Link>
+            </Card>
+            <Card className='card-text-box'>
+              <Card.Body className='card-text-body'>
+                <Card.Title>Battle with Alien</Card.Title>
+                <Card.Text>
+                A rock-paper-scissors game made using React Hooks. 
+                By using useState and useEffect together, 
+                the desired action is performed according to the state change of the component.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <div className='stack-container'>
+              {['React', 'CSS'].map((tech, index) => (
                 <p key={index} className='stack-badge'>
                   {tech}
                 </p>
@@ -130,7 +159,6 @@ const ProjectsCard = () => {
               ))}
             </div>
           </Col>
-
         </Row>
       </Container>
     </>

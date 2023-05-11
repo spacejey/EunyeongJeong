@@ -1,12 +1,13 @@
 .profile-img {
   width: 400px;
-  margin-right: 50px;
-  border-radius: 20px;
+  margin-right: 80px;
+  border-radius: 10px;
 }
 
 .about-header {
   display: flex;
-  margin-top: 100px;
+  margin-top: 9%;
+  animation: dissolve 1s ease-in-out;
 }
 
 .about-text-container {
@@ -22,31 +23,47 @@
 }
 
 .first-title {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
-  height: 30px;
+  height: 20px;
   color: orange;
 }
 .sec-title {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 900;
 }
 
 .about-sub {
-  font-size: 15px;
-  margin-bottom: 20px;
+  font-size: 17px;
   font-style: italic;
-  .highlight {
-    font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+  cursor: pointer;
+  .mail {
+    margin-right: 10px;
+    width: 35px;
+  }
+  .LinkedIn {
+    margin-right: 10px;
+    width: 34px;
+  }
+  .Github {
+    width: 35px;
   }
 }
 
 .about-text-long {
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to right, #ffc96594, #7cffcd70);
-  padding: 20px;
-  border-radius: 20px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 20px 20px 20px 0;
+  color: rgb(61, 61, 61);
+  border-radius: 10px;
 }
 
 .highlight {
@@ -56,20 +73,6 @@
   text-decoration: underline;
 }
 
-.buttons {
-  cursor: pointer;
-  .mail {
-    margin-right: 10px;
-    width: 41px;
-  }
+@media screen {
   
-  .LinkedIn {
-    margin-right: 10px;
-    width: 39px;
-  }
-  
-  .Github {
-    width: 46px;
-    height: 45px;
-  }
 }
