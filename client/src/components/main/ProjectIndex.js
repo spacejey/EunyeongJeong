@@ -1,5 +1,6 @@
 // Components
 import ProjectCard from './ProjectCard'
+import ToyProjects from './ToyProjects'
 import Footer from './Footer'
 
 // Bootstrap
@@ -19,6 +20,14 @@ const Projects = () => {
         </Row>
         <Col style={{ marginBottom: '100px' }}>
           <ProjectCard />
+        </Col>
+        <Row>
+          <Col style={{ display: 'flex', justifyContent: 'center' }}>
+            <h1 className='toy-project-title'> TOY PROJECTS </h1>
+          </Col>
+        </Row>
+        <Col style={{ marginBottom: '100px' }}>
+          <ToyProjects />
         </Col>
       </Container>
       <Footer />

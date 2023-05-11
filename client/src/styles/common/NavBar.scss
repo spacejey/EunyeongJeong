@@ -11,7 +11,7 @@
   font-size: small;
   color: black;
   margin-left: 50px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 
@@ -23,4 +23,9 @@
   }
 }
 
-
+@media only screen and (max-width: 890px) {
+  .my-link {
+    font-size: 10px;
+    margin: 0;
+  }
+}

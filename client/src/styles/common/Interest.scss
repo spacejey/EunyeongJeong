@@ -14,4 +14,12 @@
   border: 1px solid black;
   border-radius: 20px;
   padding: 40px;
+  margin-top: 200px;
+}
+
+@media only screen and (max-width: 890px) {
+  .interest-container {
+    margin-top: 100px;
+    margin: 30px;
+  }
 }

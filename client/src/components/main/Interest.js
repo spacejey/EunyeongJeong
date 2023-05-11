@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col'
 const Interest = () => {
   return ( 
     <>
-      <Row style={{ marginTop: '200px' }} className='interest-container'>
+      <Row className='interest-container'>
         <div className='interest'>
           <img style={{ width: 50, marginRight: 10 }} src={ Star } alt="" />
           <p style={{ fontSize: 35, fontWeight: 800 }}>What am I interested in...</p>

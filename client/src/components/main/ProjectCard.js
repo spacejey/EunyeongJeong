@@ -106,33 +106,6 @@ const ProjectsCard = () => {
             </div>
           </Col>
 
-          {/* Rock Paper Scissor */}
-          <Col>
-            <Card.Text className='card-date'>FEBRARY 2023</Card.Text>
-            <Card style={{ width: '18rem' }}>
-              <Link to={'https://battle-with-alien.netlify.app/'} target="_blank" rel="noopener noreferrer">
-                <Card.Img  className='card-img'  variant="top" src={RockGame} />
-              </Link>
-            </Card>
-            <Card className='card-text-box'>
-              <Card.Body className='card-text-body'>
-                <Card.Title>Battle with Alien</Card.Title>
-                <Card.Text>
-                A rock-paper-scissors game made using React Hooks. 
-                By using useState and useEffect together, 
-                the desired action is performed according to the state change of the component.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <div className='stack-container'>
-              {['React', 'CSS'].map((tech, index) => (
-                <p key={index} className='stack-badge'>
-                  {tech}
-                </p>
-              ))}
-            </div>
-          </Col>
-
           {/* Snake Game */}
           <Col>
             <Card.Text className='card-date'>FEBRARY 2023</Card.Text>

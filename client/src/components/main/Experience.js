@@ -6,14 +6,17 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+import { useMediaQuery } from 'react-responsive'
 
 
 const Experience = () => {
+  const isMobile = useMediaQuery({ maxWidth: 890 })
+
   return ( 
     <>
       <Container className='experience-container'>
         <Row>
-          <Col>
+          <Col className='experience'>
             <div className='experience-header' >
               <p className='first-title'> WORK </p>
               <p className='sec-title'> EXPERIENCE </p>
@@ -58,9 +61,11 @@ const Experience = () => {
               </p>
             </div>
           </Col>
-          <Col >
-            <AboutGraphic />
-          </Col>
+          {!isMobile && (
+            <Col>
+              <AboutGraphic />
+            </Col>
+          )}
         </Row>
       </Container>
     </>
