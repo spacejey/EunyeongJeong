@@ -24,7 +24,7 @@ const HomeGraphic = () => {
 
       return () => clearInterval(intervalId)
     }
-  }, [count])
+  }, [])
 
   return (
     <div className='home-graphic-container'>

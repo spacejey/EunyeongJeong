@@ -24,7 +24,7 @@ const AboutGraphic = () => {
 
       return () => clearInterval(intervalId)
     }
-  }, [count])
+  }, [])
 
   return (
     <div className='about-graphic-container'>
