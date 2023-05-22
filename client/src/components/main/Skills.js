@@ -11,17 +11,17 @@ const Skills = () => {
       <Row style={{ marginTop: '100px', marginBottom: '200px' }} className='skills-container'>
         <div className='skills'>
           <img style={{ width: 50, marginRight: 10 }} src={ Star } alt="" />
-          <p style={{ fontSize: 35, fontWeight: 800 }}>My Skills...</p>
+          <p className='skills-title'>My Skills...</p>
         </div>
-        <Col>
-          <h4 className='skills-title'>Front end</h4>
+        <Col xs={12} sm={6} md={3} lg={12} className='skills-asset'>
+          <h4 className='skills-asset-title'>Front end</h4>
           <p>HTML5<br />
               CSS<br />
               SCSS/SASS<br />
               React<br />
               JavaScript</p></Col>
-        <Col>
-          <h4 className='skills-title'>Back end</h4>
+        <Col xs={12} sm={6} md={3} lg={12} className='skills-asset'>
+          <h4 className='skills-asset-title'>Back end</h4>
           <p>Python<br />
               Express<br />
               Node.js<br />
@@ -30,25 +30,25 @@ const Skills = () => {
               Django<br />
               PostgreSQL<br />
               Table Plus</p></Col>
-        <Col>
-          <h4 className='skills-title'>Storage/<br />Version control</h4>
+        <Col xs={12} sm={6} md={3} lg={12} className='skills-asset'>
+          <h4 className='skills-asset-title'>Storage/<br />Version control</h4>
           <p>Git<br />
               GitHub<br />
               Insomnia<br />  
               Heroku</p></Col>
-        <Col>
-          <h4 className='skills-title'>Design</h4>
+        <Col xs={12} sm={6} md={3} lg={12} className='skills-asset'>
+          <h4 className='skills-asset-title'>Design</h4>
           <p>Figma<br /> 
               Touch Designer<br /> 
               Photoshop<br /> 
               Illustrator</p></Col>
-        <Col>
-          <h4 className='skills-title'>Language</h4>
-          <p>Korean(native)<br /> 
+        <Col xs={12} sm={6} md={3} lg={12} className='skills-asset'>
+          <h4 className='skills-asset-title'>Language</h4>
+          <p>Korean(native)<br />  
               English(fluent)<br /> 
               Japanese(beginner)</p></Col>
-        <Col>
-          <h4 className='skills-title'>Additional Skills</h4>
+        <Col xs={12} sm={6} md={3} lg={12} className='skills-asset'>
+          <h4 className='skills-asset-title'>Additional Skills</h4>
           <p>Project Planning<br /> 
               Communication<br /> 
               Virtual Working<br /> 

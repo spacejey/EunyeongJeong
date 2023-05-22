@@ -92,5 +92,27 @@
       font-size: 30px;
       margin-bottom: 20px;
     }
+    .first-title {
+      font-size: 25px;
+      margin-bottom: 50px;
+    }
+    .about-sub {
+      font-size: 16px;
+    }
+  }
+  .icons {
+    margin-top: 40px;
+    cursor: pointer;
+    .mail {
+      margin-right: 10px;
+      width: 25px;
+    }
+    .LinkedIn {
+      margin-right: 10px;
+      width: 24px;
+    }
+    .Github {
+      width: 25px;
+    }
   }
 }

@@ -4,3 +4,9 @@
   margin-bottom: 18px;
   color: grey;
 }
+
+@media only screen and (max-width: 890px) {
+  .footer {
+    font-size: 10px;
+  }
+}

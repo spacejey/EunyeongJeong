@@ -26,11 +26,12 @@ const Home = () => {
             &quot;HELLO WORLD!&quot; <br />
           </h1>
           <h3 className='sub-text'>
-            <span style={{ fontSize: '20px' }}>
+            <span className='sub-from-text'>
               From <span className='hight-light'>Seoul </span> 
               to moving to <span className='hight-light'>London.</span><br />
               From <span className='hight-light'>Designer</span> to 
-              <span className='hight-light'> Software engineer.</span></span>
+              <span className='hight-light'> Software engineer.</span>
+            </span>
             <br /><br />
             Welcome to the homepage of my journey.<br />
             Tell me your story too. Mail, LinkedIn and Coffee Chat are always welcome. <br />

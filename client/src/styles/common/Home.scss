@@ -46,6 +46,10 @@ main {
     font-size: 35px;
     margin: 10px;
   }
+  
+  .sub-from-text {
+    font-size: 20px;
+  }
 
   .sub-text {
     order: 2;
@@ -62,5 +66,22 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .main-text {
+    order: 1;
+    font-size: 28px;
+    margin: 10px;
+  }
+  .sub-text {
+    order: 2;
+    position: unset;
+    font-size: 9px;
+    margin-bottom: 25px;
+  }
+  .sub-from-text {
+    font-size: 18px;
   }
 }

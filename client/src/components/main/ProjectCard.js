@@ -20,7 +20,7 @@ const ProjectsCard = () => {
   return (
     <>
       <Container className='card-index'>
-        <Row style={{ marginTop: '100px' }}>
+        <Row className='card-container'>
           
           {/* STAY COOL */}
           <Col className='card-indivisual'>
@@ -44,7 +44,7 @@ const ProjectsCard = () => {
               </Card.Body>
             </Card>
             <div className='stack-container'>
-              {['Django', 'PostgeSQL', 'React', 'SASS'].map((tech, index) => (
+              {['Django', 'Python', 'PostgeSQL', 'React', 'SASS'].map((tech, index) => (
                 <p key={index} className='stack-badge'>
                   {tech}
                 </p>

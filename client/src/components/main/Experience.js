@@ -23,16 +23,23 @@ const Experience = () => {
               <p style={{ fontSize: '17px', fontStyle: 'italic' }}>From Fashion Marketing to Software Engineering</p> 
             </div>
             <div className='experience-box'>
-              <p className='experience-date'>Jan - Apr 2023</p>
-              <p className='experience-title'>Software Engineering Immersive, Student, General Assembly, Remote</p>
+              <p className='experience-date'>Apr 2023 - Current </p><hr />
+              <p className='experience-title'>SEO Contents Writter, Tech Mahindra, Remote, London</p>
+              <p className='experience-skills'>Key Skills : Translate English to Korean, Organizational skills, Remote Work </p>
+              <p className='experience-text'>
+                &bull; Manage the contents of Korean content to be used in Google &apos;Bard&apos;<br />
+                &bull; Censoring correct answers to random prompts. <br /></p>
+            </div>
+            <div className='experience-box'>
+              <p className='experience-date'>Jan - Apr 2023</p><hr />
+              <p className='experience-title'>Software Engineering Immersive, Student, General Assembly, Remote, London</p>
               <p className='experience-skills'>Key Skills : Team Work, Organizational skills, Remote Work </p>
               <p className='experience-text'>
-                <span style={{ paddingRight: '5px', paddingLeft: '5px' }}>&bull;</span>
-                Full-time full-stack software engineering course for 12 weeks. Solo and group projects with JavaScript, 
+                &bull; Full-time full-stack software engineering course for 12 weeks. Solo and group projects with JavaScript, 
                 Python, MongoDB, Django, etc. <br /></p>
             </div>
             <div className='experience-box'>
-              <p className='experience-date'>Jun - Dec 2022</p>
+              <p className='experience-date'>Jun - Dec 2022</p><hr />
               <p className='experience-title'>Stylist Assistant, All Saints, Camden, London</p>
               <p className='experience-skills'>Key Skills : Communication Skills, Time Management, Emotional Intelligence</p>
               <p className='experience-text'>
@@ -41,7 +48,7 @@ const Experience = () => {
                 &bull; Utilizing Fictional Media and Creating Content for Employees.</p>
             </div>
             <div className='experience-box'>
-              <p className='experience-date'>Feb 2021 - Feb 2022</p>
+              <p className='experience-date'>Feb 2021 - Feb 2022</p><hr />
               <p className='experience-title'>Merchandiser, LF Fashion, Seoul, Korea</p>
               <p className='experience-skills'>Key Skills : Excel, Photoshop, Communication Skills, Time Management</p>
               <p className='experience-text'>
@@ -51,7 +58,7 @@ const Experience = () => {
                 &bull; Managed Live commerce for the largest fashion platform in Korea called &quot;NAVER&quot;</p>
             </div>
             <div className='experience-box'>
-              <p className='experience-date'>Oct 2019 - Nov 2020</p>
+              <p className='experience-date'>Oct 2019 - Nov 2020</p><hr />
               <p className='experience-title'>Marketing Manager, TchaiKim, Seoul, Korea</p>
               <p className='experience-skills'>Key Skills : Photoshop, Excel, Communication Skills, Problem-Solving, Self-Learning</p>
               <p className='experience-text'>
