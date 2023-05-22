@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button'
 import Woozu from '../../assets/woozu.gif'
 import SnakeGame from '../../assets/snake-game.gif'
 import Harvard from '../../assets/harvard-gallery.gif'
-import RockGame from '../../assets/rock-game.gif'
+import StayCool from '../../assets/STAYCOOL.gif'
 
 
 
@@ -30,7 +30,7 @@ const ProjectsCard = () => {
             </div>
             <Card style={{ width: '18rem' }}>
               <Link to={'https://staycool.herokuapp.com/'} target="_blank" rel="noopener noreferrer">
-                <Card.Img  className='card-img' variant="top" src={SnakeGame} />
+                <Card.Img  className='card-img' variant="top" src={StayCool} />
               </Link>
             </Card>
             <Card className='card-text-box'>
@@ -38,7 +38,7 @@ const ProjectsCard = () => {
                 <Card.Title className='card-title'>STAY COOL</Card.Title>
                 <Card.Text className='card-text'>
                 Full-stack Ice cream truck tracking app by utilising the Django REST
-                Framework and PostgreSQL. The frontend is builded by React and SCSS,
+                Framework and PostgreSQL. The frontend is built with React and SCSS,
                 and map was inserted using Google Cloud API.
                 </Card.Text>
               </Card.Body>
@@ -108,7 +108,7 @@ const ProjectsCard = () => {
 
           {/* Snake Game */}
           <Col>
-            <Card.Text className='card-date'>FEBRARY 2023</Card.Text>
+            <Card.Text className='card-date'>FEBRUARY 2023</Card.Text>
             <Card style={{ width: '18rem' }}>
               <Link to={'https://spacejey.github.io/SEI-PROJECT1/'} target="_blank" rel="noopener noreferrer">
                 <Card.Img  className='card-img'  variant="top" src={SnakeGame} />
@@ -118,7 +118,7 @@ const ProjectsCard = () => {
               <Card.Body className='card-text-body'>
                 <Card.Title>Snake Game</Card.Title>
                 <Card.Text>
-                This is my first solo project made using JavaScript. 
+                This was my first solo project made using JavaScript. 
                 I adjusted the speed of the moving snake with
                 &quot;setInterval&quot; and gave the &quot;keyCode&quot; effect.
                 </Card.Text>

@@ -16,19 +16,19 @@ const Experience = () => {
     <>
       <Container className='experience-container'>
         <Row>
-          <Col className='experience'>
+          <Col>
             <div className='experience-header' >
               <p className='first-title'> WORK </p>
               <p className='sec-title'> EXPERIENCE </p>
-              <p style={{ fontSize: '17px', fontStyle: 'italic' }}>My career is started from Fashion
-                Marketing to Software Engineering </p> 
+              <p style={{ fontSize: '17px', fontStyle: 'italic' }}>From Fashion Marketing to Software Engineering</p> 
             </div>
             <div className='experience-box'>
               <p className='experience-date'>Jan - Apr 2023</p>
               <p className='experience-title'>Software Engineering Immersive, Student, General Assembly, Remote</p>
               <p className='experience-skills'>Key Skills : Team Work, Organizational skills, Remote Work </p>
               <p className='experience-text'>
-              &bull; Full-time full-stack software engineering course for 12 weeks. Solo and group projects with JavaScript, 
+                <span style={{ paddingRight: '5px', paddingLeft: '5px' }}>&bull;</span>
+                Full-time full-stack software engineering course for 12 weeks. Solo and group projects with JavaScript, 
                 Python, MongoDB, Django, etc. <br /></p>
             </div>
             <div className='experience-box'>
@@ -36,7 +36,7 @@ const Experience = () => {
               <p className='experience-title'>Stylist Assistant, All Saints, Camden, London</p>
               <p className='experience-skills'>Key Skills : Communication Skills, Time Management, Emotional Intelligence</p>
               <p className='experience-text'>
-                &bull; I studied on various styling to provide recommendations that fit the
+                &bull; I studied various styling to provide recommendations that fit the
                 customer&apos;s body types and moods, which also helped to boost sales. <br />
                 &bull; Utilizing Fictional Media and Creating Content for Employees.</p>
             </div>

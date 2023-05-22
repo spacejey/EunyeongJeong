@@ -36,13 +36,13 @@ const About = () => {
           <Row className='about-main'>
             <Col>
               <p className='first-title'> ABOUT </p>
-              <p className='sec-title'> EUNYEONG </p>
               <p className='about-sub'>The name &apos;Eunyeong&apos; has the meaning of &apos;graceful and glorious&apos;.<br />
+              And I&apos;m living up to my name, helping others, rejoicing in glory and love!<br />
               I am a <span style={{ fontWeight: '700' }}>Junior Engineer </span> 
-              dealing with <span style={{ fontWeight: '700' }}>Full stack</span></p>
+              skilled in <span style={{ fontWeight: '700' }}>Full stack</span></p>
             </Col>
           </Row>
-          <Col className='buttons'>
+          <Col className='icons'>
             <img
               src={Mail}
               className='mail'
@@ -67,7 +67,7 @@ const About = () => {
           </Col>
           <Row className='about-text-long'>
             <Col>I&apos;m curious about the world. I&apos;ve always been passionate about technology, creativity and digital design.
-              My passionate about design and the IT technology led me to London. Also my enthusiasm about
+              My passion about design and the IT technology led me to London. Also my enthusiasm about
               programing has recently led me to complete an immersive software development course in London.
               I&apos;ve been living my life literally shouting &nbsp;
             <span className='highlight'>&quot;Hello World!&quot;</span>
