@@ -44,7 +44,7 @@ const ProjectsCard = () => {
               </Card.Body>
             </Card>
             <div className='stack-container'>
-              {['Django', 'Python', 'PostgeSQL', 'React', 'SASS'].map((tech, index) => (
+              {['Django', 'PostgeSQL', 'React', 'SASS', 'Figma'].map((tech, index) => (
                 <p key={index} className='stack-badge'>
                   {tech}
                 </p>
@@ -71,7 +71,7 @@ const ProjectsCard = () => {
               </Card.Body>
             </Card>
             <div className='stack-container'>
-              {['MERN framework', 'SASS'].map((tech, index) => (
+              {['MERN framework', 'SASS', 'Figma'].map((tech, index) => (
                 <p key={index} className='stack-badge'>
                   {tech}
                 </p>
@@ -98,7 +98,7 @@ const ProjectsCard = () => {
               </Card.Body>
             </Card>
             <div className='stack-container'>
-              {['React', 'API', 'SCSS'].map((tech, index) => (
+              {['React', 'API', 'SCSS', 'Figma'].map((tech, index) => (
                 <p key={index} className='stack-badge'>
                   {tech}
                 </p>
@@ -125,7 +125,7 @@ const ProjectsCard = () => {
               </Card.Body>
             </Card>
             <div className='stack-container'>
-              {['JavaScript', 'CSS'].map((tech, index) => (
+              {['JavaScript', 'CSS', 'Figma'].map((tech, index) => (
                 <p key={index} className='stack-badge'>
                   {tech}
                 </p>
