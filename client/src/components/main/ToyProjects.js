@@ -12,6 +12,7 @@ import Woozu from '../../assets/woozu.gif'
 import SnakeGame from '../../assets/snake-game.gif'
 import Harvard from '../../assets/harvard-gallery.gif'
 import RockGame from '../../assets/rock-game.gif'
+import Quiz from '../../assets/quizzle-eye.gif'
 
 
 
@@ -22,6 +23,31 @@ const ToyProjects = () => {
       <Container className='card-index'>
         <Row style={{ marginTop: '100px' }}>
 
+          {/* Quizzle-eye */}
+          <Col>
+            <Card.Text className='card-date'>JUNE 2023</Card.Text>
+            <Card style={{ width: '18rem' }}>
+              <Link to={'https://quizzle-eye.netlify.app/'} target="_blank" rel="noopener noreferrer">
+                <Card.Img  className='card-img'  variant="top" src={Quiz} />
+              </Link>
+            </Card>
+            <Card className='card-text-box'>
+              <Card.Body className='card-text-body'>
+                <Card.Title>Quizzle-eye !</Card.Title>
+                <Card.Text>
+                This is a quiz game application designed to enhance your understanding of router-dom, useState, and useEffect. 
+                Users can select multiple choices and earn 10 points for each question.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <div className='stack-container'>
+              {['React', 'SASS'].map((tech, index) => (
+                <p key={index} className='stack-badge'>
+                  {tech}
+                </p>
+              ))}
+            </div>
+          </Col>
           {/* Rock Paper Scissor */}
           <Col>
             <Card.Text className='card-date'>FEBRARY 2023</Card.Text>
