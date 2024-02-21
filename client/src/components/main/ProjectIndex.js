@@ -14,7 +14,11 @@ const Projects = () => {
     <>
       <Container className='nav-transition'>
         <Row>
-          <Col style={{ display: 'flex', justifyContent: 'center' }}>
+          <Col style={{ 
+            display: 'flex', 
+            justifyContent: 'center',
+            width: '100%',
+          }}>
             <h1 className='project-title'> PROJECTS </h1>
           </Col>
         </Row>

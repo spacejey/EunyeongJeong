@@ -8,7 +8,7 @@ import Logo from '../../assets/Logo.png'
 const NavBar = () => {
   return (
     <>
-      <Navbar collapseOnSelect bg="white" expand="lg">
+      <nav>
         <Container className='nav-bar-container'>
           <Navbar.Brand href="/" className="my-logo"><img src={Logo} alt="" className="logo"/></Navbar.Brand>
           <Navbar id="responsive-navbar-nav">
@@ -24,8 +24,9 @@ const NavBar = () => {
             </Nav>
           </Navbar>
         </Container>
-      </Navbar>
+      </nav>
     </>
+
   )
   
 }

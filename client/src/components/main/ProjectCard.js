@@ -18,7 +18,7 @@ import StayCool from '../../assets/STAYCOOL.gif'
 const ProjectsCard = () => {
 
   return (
-    <>
+    <div className='project'>
       <Container className='card-index'>
         <Row className='card-container'>
           
@@ -53,7 +53,7 @@ const ProjectsCard = () => {
           </Col>
 
           {/* Woozu Sound */}
-          <Col>
+          <Col className='card-indivisual'>
             <Card.Text className='card-date'>MARCH 2023</Card.Text>
             <Card style={{ width: '18rem' }}>
               <Link to={'https://woozu-sounds.herokuapp.com/'} target="_blank" rel="noopener noreferrer">
@@ -80,7 +80,7 @@ const ProjectsCard = () => {
           </Col>
 
           {/* Harvard Gallery */}
-          <Col>
+          <Col className='card-indivisual'>
             <Card.Text className='card-date'>MARCH 2023</Card.Text>
             <Card style={{ width: '18rem' }}>
               <Link to={'https://spacejey-harvard-api.netlify.app/'} target="_blank" rel="noopener noreferrer">
@@ -107,7 +107,7 @@ const ProjectsCard = () => {
           </Col>
 
           {/* Snake Game */}
-          <Col>
+          <Col className='card-indivisual'>
             <Card.Text className='card-date'>FEBRUARY 2023</Card.Text>
             <Card style={{ width: '18rem' }}>
               <Link to={'https://spacejey.github.io/SEI-PROJECT1/'} target="_blank" rel="noopener noreferrer">
@@ -134,7 +134,7 @@ const ProjectsCard = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </div>
   )
 }
 

@@ -1,10 +1,18 @@
-.card-index {
+.project {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-index {
   flex-wrap: wrap;
   margin: 0 25px 30px 25px;
 
   .card-indivisual {
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .card-top {
     display: flex;
@@ -14,6 +22,7 @@
 
 .card-container {
   margin-top: 100px;
+
 }
 
 .readme-btn {
