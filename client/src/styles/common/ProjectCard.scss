@@ -1,7 +1,11 @@
-.project {
+.project, .project-toy {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.project-toy {
+  width: 88vw;
 }
 
 .card-index {

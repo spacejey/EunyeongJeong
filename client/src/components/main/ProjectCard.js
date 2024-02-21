@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
-import Button from 'react-bootstrap/Button'
 
 // Components
 import Woozu from '../../assets/woozu.gif'
@@ -26,7 +25,6 @@ const ProjectsCard = () => {
           <Col className='card-indivisual'>
             <div className='card-top'>
               <Card.Text className='card-date'>APRIL 2023</Card.Text>
-              {/* <Button className='readme-btn'>ReadMe</Button> */}
             </div>
             <Card style={{ width: '18rem' }}>
               <Link to={'https://staycool.herokuapp.com/'} target="_blank" rel="noopener noreferrer">

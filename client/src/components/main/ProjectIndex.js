@@ -17,22 +17,30 @@ const Projects = () => {
           <Col style={{ 
             display: 'flex', 
             justifyContent: 'center',
-            width: '100%',
+            padding: '0',
           }}>
             <h1 className='project-title'> PROJECTS </h1>
           </Col>
         </Row>
-        <Col style={{ marginBottom: '100px' }}>
+
+        <Col>
           <ProjectCard />
         </Col>
+
         <Row>
-          <Col style={{ display: 'flex', justifyContent: 'center' }}>
-            <h1 className='toy-project-title'> TOY PROJECTS </h1>
+          <Col style={{ 
+            display: 'flex', 
+            justifyContent: 'center',
+            padding: '0',
+          }}>
+            <h1 className='project-title'> TOY PROJECTS </h1>
           </Col>
         </Row>
+        
         <Col style={{ marginBottom: '100px' }}>
           <ToyProjects />
         </Col>
+
       </Container>
       <Footer />
     </>

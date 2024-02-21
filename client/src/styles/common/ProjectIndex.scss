@@ -1,4 +1,10 @@
-.project-title {
+.nav-transition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-title, .toy-project-title {
   margin: 100px 100px 0 100px;
   font-size: 30px;
   align-items: center;
@@ -7,9 +13,6 @@
 
 .toy-project-title {
   margin: 0 100px 0 100px;
-  font-size: 30px;
-  align-items: center;
-  font-weight: 800;
 }
 
 @media only screen and (max-width: 890px) {

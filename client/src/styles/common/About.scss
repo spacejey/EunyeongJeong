@@ -6,7 +6,7 @@
 
 .about-header {
   display: flex;
-  margin-top: 9%;
+  padding-top: 15vh;
   animation: dissolve 1s ease-in-out;
 }
 
@@ -76,11 +76,11 @@
 
 @media only screen and (max-width: 890px) {
   .about-header {
-    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding-top: 10vh;
     .profile {
       margin: 20px 0 30px 0;
     }
